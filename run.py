@@ -8,7 +8,7 @@ def main(args):
     if "timeout" in args:
         count = 1
         while True:
-            print "sleepin till i die (%s)" % count
+            #print "sleepin till i die (%s)" % count
             time.sleep(10)
             count += 1
 
