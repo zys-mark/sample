@@ -1,2 +1,2 @@
 tasks:
-  - name: random
+  - name: randomness
