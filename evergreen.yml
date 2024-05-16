@@ -95,7 +95,7 @@ tasks:
 
 modules:
 - name: render-module
-  repo: git@github.com:evergreen-ci/render.git
+  repo: git@github.com:zys-mark/render.git
   prefix: modules
   branch: main
 
@@ -104,7 +104,7 @@ buildvariants:
   display_name: OSX
   modules: ~
   run_on:
-  - localtestdistro
+  - localhost
   expansions:
     test_flags: "blah blah"
   tasks:
@@ -116,7 +116,7 @@ buildvariants:
   display_name: Ubuntu
   modules: ["render-module"]
   run_on:
-  - ubuntu1404-test
+  - localhost
   expansions:
     test_flags: "blah blah"
   tasks:
